@@ -46,7 +46,7 @@ The waifu appears at the bottom-left of the page automatically, running with the
 | Action | How |
 |--------|-----|
 | Move the waifu | Drag the ✥ handle at the bottom-right corner |
-| Zoom the model | Mouse wheel while hovering over the canvas |
+| Zoom the model | Mouse wheel while hovering over the drag handle |
 | Resize canvas | Hover the canvas, then drag the blue corner handle at the bottom-right |
 | Eye tracking | On globally; gaze follows the cursor. Toggle off in settings |
 
