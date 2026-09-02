@@ -6,8 +6,8 @@
       "canvasWidth": 300,
       "canvasHeight": 400,
       "config": {
-        "x": -50,
-        "y": 100,
+        "x": 0,
+        "y": 0,
         "scaleX": 2,
         "scaleY": 2
       },
