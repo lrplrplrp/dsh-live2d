@@ -2,7 +2,7 @@
 
 **Render draggable Live2D models in the DeepSeek Harness Web GUI, animated in real time by actual DSH work states, with mouse-following eyes.**
 
-[中文](README.md) · [npm](https://www.npmjs.com/package/dsh-live2d) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
+[中文](README.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
 
 ## Features
 
@@ -28,9 +28,6 @@ Close the DSH Host (not just the browser tab).
 ```bash
 # From local directory (development/debug)
 dsh plugin --profile web add link:/path/to/dsh-live2d
-
-# Or from npm (after publish)
-dsh plugin --profile web add dsh-live2d
 ```
 
 ### 3. Start DSH

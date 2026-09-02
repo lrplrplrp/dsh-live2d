@@ -2,7 +2,7 @@
 
 **在 DeepSeek Harness Web GUI 中渲染可拖动的 Live2D 模型，由 DSH 真实工作状态实时驱动动画，并支持眼睛跟随鼠标。**
 
-[English](README_EN.md) · [npm](https://www.npmjs.com/package/dsh-live2d) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
+[English](README_EN.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
 
 ## 功能
 
@@ -28,9 +28,6 @@
 ```bash
 # 从本地目录安装（开发/调试）
 dsh plugin --profile web add link:/path/to/dsh-live2d
-
-# 或从 npm 安装（发布后）
-dsh plugin --profile web add dsh-live2d
 ```
 
 ### 3. 启动 DSH
