@@ -1,0 +1,59 @@
+{
+  "Tap无聊": [
+    {
+      "file": "SZ-无聊.motion3.json",
+      "sound": "八重神子-无聊.wav"
+    }
+  ],
+  "Tap归零": [
+    {
+      "file": "SZ-归零.motion3.json"
+    }
+  ],
+  "Tap尾巴": [
+    {
+      "file": "SZ-尾巴.motion3.json"
+    }
+  ],
+  "Tap早上好": [
+    {
+      "file": "SZ-早上好.motion3.json",
+      "sound": "八重神子-早上.wav"
+    },
+    {}
+  ],
+  "Tap中午好": [
+    {
+      "file": "SZ-中午.motion3.json",
+      "sound": "八重神子-中午.wav"
+    }
+  ],
+  "Tap晚上好": [
+    {
+      "file": "SZ-夜晚.motion3.json",
+      "sound": "八重神子-夜晚.wav"
+    }
+  ],
+  "Tap头饰": [
+    {
+      "file": "SZ-头饰.motion3.json"
+    }
+  ],
+  "Tap不变": [
+    {
+      "file": "SZ-不变.motion3.json",
+      "sound": "八重神子-不变.wav"
+    }
+  ],
+  "Start": [
+    {
+      "file": "SZ-初见.motion3.json",
+      "sound": "八重神子-初见.wav"
+    }
+  ],
+  "Shake": [
+    {
+      "file": "SZ-屑眼神.motion3.json"
+    }
+  ]
+}

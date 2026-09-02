@@ -4,6 +4,8 @@
 
 [中文](README.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
 
+![Preview](https://raw.githubusercontent.com/lrplrplrp/dsh-live2d/main/docs/preview.png)
+
 ## Features
 
 - 🎭 **Live2D Model Rendering** — Display a Live2D waifu in the DSH Web GUI

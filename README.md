@@ -4,6 +4,8 @@
 
 [English](README_EN.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
 
+![预览图](https://raw.githubusercontent.com/lrplrplrp/dsh-live2d/main/docs/preview.png)
+
 ## 功能
 
 - 🎭 **Live2D 模型渲染** — 在 DSH Web GUI 中显示 Live2D 看板娘
