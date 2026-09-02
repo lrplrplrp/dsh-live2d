@@ -1,6 +1,6 @@
 {
   "name": "@lrplrplrp/dsh-live2d",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Live2D 看板娘插件 for DeepSeek Harness — 可拖动的 Live2D 模型，支持 DSH 状态驱动动画、本地模型导入和完整配置页。",
   "type": "module",
   "main": "lib/index.js",
@@ -11,7 +11,8 @@
   },
   "files": [
     "lib/",
-    "assets/",
+    "assets/deepseek_l2d/",
+    "assets/model_list.json",
     "cordis.patch.yml",
     "README.md",
     "LICENSE"
