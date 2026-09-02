@@ -1,0 +1,11 @@
+# dsh-live2d bundle patch: inserts the Live2D plugin into the web profile.
+#
+# Usage:
+#   pnpm dsh web --patch ./cordis.yml
+#
+# Or install as a profile dependency:
+#   pnpm dsh plugin --profile web add link:./dsh-live2d
+
+- insert:
+    - id: dsh-live2d
+      name: 'dsh-live2d'

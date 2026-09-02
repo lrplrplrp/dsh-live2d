@@ -1,0 +1,36 @@
+{
+  "models": [
+    {
+      "name": "DeepSeek",
+      "url": "./deepseek_l2d/deepseek.model3.json",
+      "canvasWidth": 300,
+      "canvasHeight": 400,
+      "config": {
+        "x": -50,
+        "y": 100,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      "animations": {
+        "IDLE": {
+          "motion": { "group": "Idle", "index": 0 }
+        },
+        "THINKING": {
+          "motion": { "group": "Anima", "index": 2 }
+        },
+        "THINK_END": {
+          "motion": { "group": "Anima", "index": 1 }
+        },
+        "WORKING": {
+          "motion": { "group": "Anima", "index": 0 }
+        },
+        "SUCCESS": {
+          "expression": "happy"
+        },
+        "ERROR": {
+          "expression": "unhappy"
+        }
+      }
+    }
+  ]
+}
