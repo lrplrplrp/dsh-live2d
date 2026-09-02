@@ -61,6 +61,7 @@ The bundled DeepSeek model ships with the following mapping, ready to use on ins
 | `THINKING` | Agent starts thinking | Anima group thinking motion |
 | `THINK_END` | Thinking done, ready to output | Anima group thinkend motion |
 | `WORKING` | Tool calls in progress | Anima group speak motion |
+| `SPEAKING` | Starts outputting dialogue | Anima group speak motion |
 | `SUCCESS` | Task completed | happy expression |
 | `ERROR` | Task failed | unhappy expression |
 

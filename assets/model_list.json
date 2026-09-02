@@ -24,6 +24,9 @@
         "WORKING": {
           "motion": { "group": "Anima", "index": 0 }
         },
+        "SPEAKING": {
+          "motion": { "group": "Anima", "index": 0 }
+        },
         "SUCCESS": {
           "expression": "happy"
         },

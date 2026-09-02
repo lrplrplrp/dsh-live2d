@@ -61,6 +61,7 @@ dsh web
 | `THINKING` | Agent 开始思考 | Anima 组 thinking motion |
 | `THINK_END` | 思考结束，准备输出 | Anima 组 thinkend motion |
 | `WORKING` | 工具调用中 | Anima 组 speak motion |
+| `SPEAKING` | 开始输出对话内容 | Anima 组 speak motion |
 | `SUCCESS` | 任务完成 | happy 表情 |
 | `ERROR` | 任务出错 | unhappy 表情 |
 
