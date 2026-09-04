@@ -2,7 +2,7 @@
 
 **在 DeepSeek Harness Web GUI 中渲染可拖动的 Live2D 模型，由 DSH 真实工作状态实时驱动动画，并支持眼睛跟随鼠标。**
 
-[English](README_EN.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
+[English](README_EN.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d) · [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 
 ![预览图](https://raw.githubusercontent.com/lrplrplrp/dsh-live2d/main/docs/preview.png)
 

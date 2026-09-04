@@ -2,7 +2,7 @@
 
 **Render draggable Live2D models in the DeepSeek Harness Web GUI, animated in real time by actual DSH work states, with mouse-following eyes.**
 
-[中文](README.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d)
+[中文](README.md) · [GitHub](https://github.com/lrplrplrp/dsh-live2d) · [![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 
 ![Preview](https://raw.githubusercontent.com/lrplrplrp/dsh-live2d/main/docs/preview.png)
 
