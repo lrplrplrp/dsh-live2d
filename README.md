@@ -95,6 +95,37 @@ dsh web
 - **pixi-live2d-display** — Live2D Cubism SDK for Web（含 `model.focus` 视线跟随）
 - **DSH 插件系统** — `window.__ModuleLoader__` + `ctx.slots` + `webServer` SSE
 
+## 开发与源码结构
+
+host 端只读取**单个** `lib/client.js` 原样投递给浏览器（无打包器，客户端 `require`
+无法加载本地文件）。因此客户端源码按功能拆分在 `lib/src/`，由构建脚本拼接生成
+投放产物：
+
+```
+lib/
+  index.js            # host 端（Node ESM）
+  shared/states.js    # DSH 状态常量单一来源（host import，client 构建时内联）
+  src/                # 客户端源码分片（按文件名前缀顺序拼接）
+    00-header.js      #   文件头 + window.__ModuleLoader__ 包装 + React
+    10-config.js      #   常量、默认配置、localStorage 持久化
+    20-libs.js        #   本地库加载 + 音频解锁
+    30-css.js         #   CSS 注入
+    40-engine.js      #   Live2DEngine（渲染/动画/时间映射/点击命中）
+    50-drag.js        #   拖动与画布大小控制手柄
+    60-state.js       #   DSH 状态订阅（SSE + 轮询兜底）
+    70-widget.js      #   主组件（画布悬浮控制图标等）
+    80-settings.js    #   设置页
+    90-apply.js       #   插件入口（slot 注入）
+  client.js           # ⚠️ 构建产物，请勿直接编辑
+```
+
+修改源码后必须重新构建：
+
+```bash
+npm run build     # 生成 lib/client.js
+npm run check     # 校验产物与源码一致 + 语法检查
+```
+
 ## License
 
 MIT

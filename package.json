@@ -18,7 +18,9 @@
     "LICENSE"
   ],
   "scripts": {
-    "check": "node --check lib/index.js && node --check lib/client.js"
+    "build": "node scripts/build-client.mjs",
+    "build:check": "node scripts/build-client.mjs --check",
+    "check": "npm run build:check && node --check lib/index.js && node --check lib/client.js"
   },
   "keywords": [
     "deepseek-harness",
